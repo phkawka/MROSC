@@ -44,6 +44,35 @@ A fase de execução é o momento em que a Organização da Sociedade Civil (OSC
    - Observância dos princípios da administração pública
    - Cotação prévia de preços no mercado
    - Manutenção da documentação referente às compras e contratações
+  
+## Fluxograma do Processo de Execução da Parceria
+
+<div class="mermaid">
+graph TD
+    A[Início da Execução] --> B[Liberação de Recursos]
+    B --> C[Realização das Atividades<br>conforme Plano de Trabalho]
+    C --> D[Monitoramento Contínuo]
+    D --> E{Necessidade de<br>Alteração?}
+    E -->|Sim| F[Proposta de<br>Termo Aditivo]
+    F --> G[Análise e Aprovação<br>da Alteração]
+    G --> C
+    E -->|Não| H[Continuação da Execução]
+    H --> I[Elaboração de Relatórios<br>Periódicos]
+    I --> J[Avaliação dos Resultados<br>Parciais]
+    J --> K{Metas<br>Alcançadas?}
+    K -->|Sim| L[Continuação ou<br>Conclusão da Parceria]
+    K -->|Não| M[Medidas Corretivas]
+    M --> C
+    L --> N[Preparação para<br>Prestação de Contas]
+    N --> O[Fim da Execução]
+
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bfb,stroke:#333,stroke-width:2px
+    style J fill:#fbb,stroke:#333,stroke-width:2px
+</div>
+
+Este fluxograma ilustra as etapas principais do processo de Execução da Parceria, desde o início da execução até a preparação para a prestação de contas. As cores destacam fases cruciais do processo.
 
 ### Responsabilidades da OSC durante a Execução
 
@@ -98,3 +127,6 @@ Durante e após a execução, é fundamental realizar o [Monitoramento e Avalia�
 </main>
 
 {% include footer.html %}
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
