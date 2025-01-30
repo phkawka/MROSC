@@ -9,7 +9,7 @@ title: Chamamento Público na Lei do MROSC
 document.documentElement.lang = 'pt-BR';
 </script>
 
-Chamamento Público na Lei do MROSC
+# Chamamento Público na Lei do MROSC
 
 O que é:
 O Chamamento Público é o procedimento destinado a selecionar organizações da sociedade civil (OSCs) para firmar parcerias com a administração pública. É uma etapa fundamental para garantir transparência, impessoalidade e igualdade de oportunidades.
@@ -42,8 +42,8 @@ Em alguns casos, o chamamento público pode ser dispensado ou considerado inexig
 Dica Importante:
 Certifique-se de que os critérios de seleção estejam alinhados com os objetivos da parceria e sejam mensuráveis objetivamente.
 
-Base Legal:
+## Base Legal:
 Artigos 23 a 32 da Lei 13.019/2014 - Regulamentam o processo de chamamento público.
 
-Próximos Passos:
+### Próximos Passos:
 Após a conclusão do chamamento público, segue-se a etapa de Seleção da OSC.
