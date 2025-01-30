@@ -2,7 +2,6 @@
 layout: default
 title: Guia Interativo da Lei do MROSC
 ---
-
 <script>
 document.documentElement.lang = 'pt-BR';
 </script>
@@ -13,12 +12,7 @@ document.documentElement.lang = 'pt-BR';
 
 {% include navigation.html %}
 
-<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
-
-<main>
-
-{% capture my_include %}{% include_relative content/index_content.md %}{% endcapture %}
-{{ my_include | markdownify }}
+<main id="conteudo-principal">
   
 # Guia Interativo da Lei do MROSC
 
