@@ -1,10 +1,7 @@
 # Guia Interativo da Lei do MROSC
 
-Bem-vindo ao Guia Interativo da Lei do Marco Regulatório das Organizações da Sociedade Civil (MROSC). 
-Este recurso ajuda gestores públicos, membros de OSCs e interessados a compreender melhor o processo 
-de parcerias entre o poder público e as organizações da sociedade civil.
+Bem-vindo ao Guia Interativo da Lei do Marco Regulatório das Organizações da Sociedade Civil (MROSC). Este recurso foi criado para ajudar gestores públicos, membros de OSCs e cidadãos interessados a compreender melhor a Lei 13.019/2014.
 
-Fluxograma do Processo:
 ## Sumário
 
 1. [Planejamento](planejamento.md)
@@ -28,3 +25,7 @@ Como Usar:
 1. Clique em cada etapa do fluxograma para obter informações detalhadas.
 2. Use os links no menu de conteúdo para navegar diretamente para seções específicas.
 3. Explore os recursos adicionais e exemplos práticos em cada página.
+---
+
+Para mais informações, entre em contato: [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
+
