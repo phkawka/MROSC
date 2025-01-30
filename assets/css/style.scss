@@ -118,3 +118,7 @@ button:focus {
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap; /* added line */
 }
+a:focus,
+button:focus {
+  outline: 2px solid #0000EE;
+}
