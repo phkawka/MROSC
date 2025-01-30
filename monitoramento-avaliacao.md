@@ -5,6 +5,10 @@ title: Monitoramento e Avaliação na Lei do MROSC
 
 {% include navigation.html %}
 
+<script>
+document.documentElement.lang = 'pt-BR';
+</script>
+
 Monitoramento e Avaliação na Lei do MROSC
 
 O que é:
