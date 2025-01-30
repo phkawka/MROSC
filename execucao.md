@@ -2,9 +2,6 @@
 layout: default
 title: Execução da Parceria na Lei do MROSC
 ---
-<a href="#main-content" class="skip-to-content">Pular para o conteúdo principal</a>
-
-<div id="main-content">
 
 {% include navigation.html %}
 
@@ -47,4 +44,3 @@ Artigos 51 a 56 da Lei 13.019/2014 - Tratam da execução das parcerias.
 
 ### Próximos Passos:
 Durante a execução, ocorre simultaneamente o Monitoramento e Avaliação da parceria.
-</div>
