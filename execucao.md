@@ -8,9 +8,11 @@ document.documentElement.lang = 'pt-BR';
 
 [Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
+{% include header.html %}
+
 {% include navigation.html %}
 
-<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
+<main id="conteudo-principal" markdown="1">
 
 ## Execução da Parceria na Lei do MROSC
 
@@ -47,3 +49,7 @@ Artigos 51 a 56 da Lei 13.019/2014 - Tratam da execução das parcerias.
 
 ### Próximos Passos:
 Durante a execução, ocorre simultaneamente o Monitoramento e Avaliação da parceria.
+
+</main>
+
+{% include footer.html %}
