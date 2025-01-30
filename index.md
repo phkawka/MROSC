@@ -16,6 +16,9 @@ document.documentElement.lang = 'pt-BR';
 <a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
 
 <main>
+
+{% capture my_include %}{% include_relative content/index_content.md %}{% endcapture %}
+{{ my_include | markdownify }}
   
 # Guia Interativo da Lei do MROSC
 
