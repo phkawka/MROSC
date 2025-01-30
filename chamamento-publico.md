@@ -16,42 +16,77 @@ document.documentElement.lang = 'pt-BR';
 
 ## Chamamento Público na Lei do MROSC
 
-O que é:
-O Chamamento Público é o procedimento destinado a selecionar organizações da sociedade civil (OSCs) para firmar parcerias com a administração pública. É uma etapa fundamental para garantir transparência, impessoalidade e igualdade de oportunidades.
+O Chamamento Público é um procedimento destinado a selecionar organizações da sociedade civil para firmar parcerias com a administração pública, garantindo oportunidades de acesso a todas as organizações interessadas.
 
-Principais Aspectos:
+### O que é Chamamento Público?
 
-1. Elaboração do Edital:
-   - Deve conter informações claras sobre o objeto da parceria, metas, prazos e condições.
-   - Especificar critérios objetivos de seleção.
+- Processo transparente de seleção de OSCs
+- Garante isonomia e impessoalidade na escolha das organizações parceiras
+- Obrigatório na maioria dos casos, com exceções previstas em lei
 
-2. Publicidade:
-   - O edital deve ser amplamente divulgado, no mínimo 30 dias antes da data de apresentação das propostas.
-   - Publicação em sites oficiais e outros meios acessíveis.
+### Quando é Necessário
 
-3. Comissão de Seleção:
-   - Nomeação de uma comissão para avaliar as propostas.
-   - Deve ser composta por pelo menos 2/3 de servidores efetivos ou empregados públicos.
+O chamamento público é obrigatório para a celebração de termos de colaboração ou de fomento, exceto em casos específicos previstos na Lei 13.019/2014, como:
 
-4. Análise das Propostas:
-   - Avaliação baseada nos critérios estabelecidos no edital.
-   - Julgamento objetivo e imparcial.
+- Urgência decorrente de paralisação/iminência de paralisação de atividades de relevante interesse público
+- Casos de guerra, calamidade pública, grave perturbação da ordem pública ou ameaça à paz social
+- Programas de proteção a pessoas ameaçadas ou em situação que possa comprometer sua segurança
 
-5. Resultado e Recursos:
-   - Publicação do resultado preliminar.
-   - Prazo para recursos e contrarrazões.
+### Etapas do Chamamento Público
 
-Exceções:
-Em alguns casos, o chamamento público pode ser dispensado ou considerado inexigível (Art. 30 e 31 da Lei 13.019/2014).
+1. **Planejamento e Elaboração do Edital**
+   - Definição clara do objeto da parceria
+   - Estabelecimento de critérios objetivos de seleção
 
-Dica Importante:
-Certifique-se de que os critérios de seleção estejam alinhados com os objetivos da parceria e sejam mensuráveis objetivamente.
+2. **Publicação do Edital**
+   - Ampla divulgação em sítio oficial e outros meios
+   - Prazo mínimo de 30 dias para apresentação de propostas
 
-### Base Legal:
-Artigos 23 a 32 da Lei 13.019/2014 - Regulamentam o processo de chamamento público.
+3. **Recebimento e Avaliação das Propostas**
+   - Análise pela comissão de seleção
+   - Aplicação dos critérios estabelecidos no edital
 
-### Próximos Passos:
-Após a conclusão do chamamento público, segue-se a etapa de Seleção da OSC.
+4. **Divulgação dos Resultados**
+   - Publicação da classificação das propostas
+   - Abertura de prazo para recursos
+
+5. **Homologação e Celebração da Parceria**
+   - Verificação dos requisitos para celebração
+   - Assinatura do termo de colaboração ou fomento
+
+### Elaboração do Edital
+
+O edital de chamamento público deve conter, no mínimo:
+
+- Programação orçamentária
+- Objeto da parceria
+- Datas, prazos, condições, local e forma de apresentação das propostas
+- Critérios de seleção e julgamento das propostas
+- Valor de referência para a realização do objeto
+
+### Comissão de Seleção
+
+- Órgão colegiado destinado a processar e julgar chamamentos públicos
+- Composta por pelo menos 2/3 de servidores ocupantes de cargos permanentes
+- Deve ser assegurada a participação de pelo menos um servidor da área finalística
+
+### Dicas para um Chamamento Público Eficaz
+
+- Seja claro e objetivo na descrição do objeto da parceria
+- Estabeleça critérios de seleção mensuráveis e relevantes
+- Garanta ampla publicidade ao edital
+- Mantenha transparência em todas as etapas do processo
+
+### Base Legal
+- Artigos 23 a 32 da Lei 13.019/2014 - Estabelecem as regras para o chamamento público
+
+### Próximos Passos
+Após a conclusão do chamamento público, segue-se para a etapa de [Seleção da OSC]({{ site.baseurl }}/selecao-osc) e posterior [Celebração da Parceria]({{ site.baseurl }}/celebracao-parceria).
+
+### Conteúdos Relacionados
+- [Planejamento]({{ site.baseurl }}/planejamento)
+- [Seleção da OSC]({{ site.baseurl }}/selecao-osc)
+- [Celebração da Parceria]({{ site.baseurl }}/celebracao-parceria)
 
 </main>
 
