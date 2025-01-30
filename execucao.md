@@ -16,39 +16,84 @@ document.documentElement.lang = 'pt-BR';
 
 ## Execução da Parceria na Lei do MROSC
 
-O que é:
-A Execução é a fase em que a organização da sociedade civil (OSC) realiza as atividades previstas no plano de trabalho, utilizando os recursos repassados pela administração pública.
+A fase de execução é o momento em que a Organização da Sociedade Civil (OSC) coloca em prática o plano de trabalho aprovado, realizando as atividades e alcançando as metas estabelecidas na parceria com o poder público.
 
-Principais Aspectos:
+### Importância da Execução
 
-1. Liberação de Recursos:
-   - Transferência dos recursos conforme cronograma de desembolso.
-   - Abertura de conta bancária específica para a parceria.
+- Materialização dos objetivos da parceria
+- Implementação das ações planejadas
+- Aplicação efetiva dos recursos públicos
+- Geração de impacto social
 
-2. Realização das Atividades:
-   - Execução das ações previstas no plano de trabalho.
-   - Cumprimento das metas estabelecidas.
+### Principais Aspectos da Execução
 
-3. Gestão Financeira:
-   - Aplicação dos recursos conforme previsto no plano de trabalho.
-   - Observância das normas de contratação e pagamentos.
+1. **Início da Execução**
+   - Liberação da primeira parcela dos recursos
+   - Cumprimento das condições suspensivas, se houver
 
-4. Transparência:
-   - Divulgação de informações sobre a parceria no site da OSC.
-   - Manutenção de registros claros das atividades e gastos.
+2. **Realização das Atividades**
+   - Execução das ações conforme o plano de trabalho
+   - Cumprimento do cronograma estabelecido
 
-5. Alterações no Plano de Trabalho:
-   - Possibilidade de solicitar alterações, quando necessário.
-   - Aprovação prévia da administração pública para mudanças significativas.
+3. **Gestão Financeira**
+   - Utilização dos recursos conforme o plano de trabalho
+   - Manutenção dos recursos em conta bancária específica
+   - Aplicação financeira dos recursos enquanto não utilizados
 
-Dica Importante:
-Mantenha uma comunicação constante com o gestor da parceria e documente todas as atividades realizadas e decisões tomadas durante a execução.
+4. **Aquisições e Contratações**
+   - Observância dos princípios da administração pública
+   - Cotação prévia de preços no mercado
+   - Manutenção da documentação referente às compras e contratações
 
-### Base Legal:
-Artigos 51 a 56 da Lei 13.019/2014 - Tratam da execução das parcerias.
+### Responsabilidades da OSC durante a Execução
 
-### Próximos Passos:
-Durante a execução, ocorre simultaneamente o Monitoramento e Avaliação da parceria.
+- Executar fielmente o objeto da parceria
+- Zelar pela boa qualidade das ações e serviços prestados
+- Manter escrituração contábil regular
+- Divulgar a parceria em seu sítio eletrônico e em locais visíveis de sua sede social
+- Permitir o livre acesso dos agentes da administração pública e do controle interno e externo
+
+### Responsabilidades da Administração Pública
+
+- Liberar os recursos de acordo com o cronograma de desembolso
+- Realizar procedimentos de fiscalização das parcerias
+- Acompanhar e avaliar o cumprimento do objeto da parceria
+- Emitir relatório técnico de monitoramento e avaliação
+
+### Alterações na Execução
+
+- Possibilidade de remanejamento de recursos sem prévia aprovação, dentro de limites estabelecidos
+- Necessidade de termo aditivo para alterações que modifiquem o plano de trabalho
+
+### Movimentação e Aplicação Financeira dos Recursos
+
+- Movimentação mediante transferência eletrônica
+- Pagamentos em espécie limitados a R$ 1.800,00 por beneficiário
+- Aplicação financeira em caderneta de poupança ou fundo de aplicação financeira de curto prazo
+
+### Vedações na Execução
+
+- Utilização dos recursos para finalidade alheia ao objeto da parceria
+- Pagar, a qualquer título, servidor ou empregado público com recursos da parceria
+- Modificar o objeto da parceria sem autorização prévia
+
+### Dicas para uma Execução Eficaz
+
+- Mantenha uma comunicação constante com o gestor da parceria
+- Documente todas as atividades realizadas e despesas efetuadas
+- Esteja atento aos prazos e metas estabelecidos no plano de trabalho
+- Realize avaliações periódicas internas para garantir o alinhamento com os objetivos da parceria
+
+### Base Legal
+- Artigos 42 a 50 da Lei 13.019/2014 - Estabelecem as regras para a execução da parceria
+
+### Próximos Passos
+Durante e após a execução, é fundamental realizar o [Monitoramento e Avaliação]({{ site.baseurl }}/monitoramento-avaliacao) da parceria, seguido pela [Prestação de Contas]({{ site.baseurl }}/prestacao-contas).
+
+### Conteúdos Relacionados
+- [Celebração da Parceria]({{ site.baseurl }}/celebracao-parceria)
+- [Monitoramento e Avaliação]({{ site.baseurl }}/monitoramento-avaliacao)
+- [Prestação de Contas]({{ site.baseurl }}/prestacao-contas)
 
 </main>
 
