@@ -1,3 +1,10 @@
+---
+layout: default
+title: Chamamento Público na Lei do MROSC
+---
+
+{% include navigation.html %}
+
 Chamamento Público na Lei do MROSC
 
 O que é:
