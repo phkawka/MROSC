@@ -57,40 +57,31 @@ Os critérios de seleção devem ser claros, objetivos e alinhados com o objeto 
 3. **Diligências**
    - Esclarecimento de dúvidas ou solicitação de informações adicionais, se necessário
   
-   ## Fluxograma do Processo de Seleção da OSC
+## Fluxograma Resumido do Processo de Seleção da OSC
 
 <div class="mermaid">
 graph TD
-    A[Início] --> B[Recebimento das Propostas]
-    B --> C[Abertura dos Envelopes]
-    C --> D[Análise dos Documentos<br>de Habilitação]
-    D --> E{OSC Habilitada?}
-    E -->|Não| F[Inabilitação da OSC]
-    E -->|Sim| G[Análise Técnica<br>da Proposta]
-    G --> H[Avaliação e Pontuação<br>conforme Critérios do Edital]
-    H --> I[Classificação das Propostas]
-    I --> J[Divulgação do<br>Resultado Preliminar]
-    J --> K{Recursos<br>Apresentados?}
-    K -->|Sim| L[Análise dos Recursos]
-    L --> M[Decisão sobre os Recursos]
-    M --> N[Divulgação do<br>Resultado Final]
-    K -->|Não| N
-    N --> O[Homologação do Resultado]
-    O --> P[Convocação da OSC<br>Selecionada]
-    P --> Q[Verificação dos Requisitos<br>para Celebração]
-    Q --> R{Requisitos<br>Atendidos?}
-    R -->|Sim| S[Celebração da Parceria]
-    R -->|Não| T[Convocação da Próxima<br>OSC Classificada]
-    T --> Q
-    S --> U[Fim]
+    A[Início] --> B[Recebimento e Análise<br>das Propostas]
+    B --> C[Avaliação e Classificação<br>das Propostas]
+    C --> D[Divulgação do<br>Resultado Preliminar]
+    D --> E{Recursos<br>Apresentados?}
+    E -->|Sim| F[Análise dos Recursos]
+    F --> G[Resultado Final]
+    E -->|Não| G
+    G --> H[Verificação dos Requisitos<br>para Celebração]
+    H --> I{Requisitos<br>Atendidos?}
+    I -->|Sim| J[Celebração da Parceria]
+    I -->|Não| K[Convocação da Próxima<br>OSC Classificada]
+    K --> H
+    J --> L[Fim]
 
-    style D fill:#f9f,stroke:#333,stroke-width:2px
-    style G fill:#bbf,stroke:#333,stroke-width:2px
-    style J fill:#bfb,stroke:#333,stroke-width:2px
-    style Q fill:#fbb,stroke:#333,stroke-width:2px
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style G fill:#bfb,stroke:#333,stroke-width:2px
+    style H fill:#fbb,stroke:#333,stroke-width:2px
 </div>
 
-Este fluxograma ilustra as etapas principais do processo de Seleção da OSC, desde o recebimento das propostas até a celebração da parceria. As cores destacam fases cruciais do processo.
+Este fluxograma resume as etapas principais do processo de Seleção da OSC, desde o recebimento das propostas até a celebração da parceria. As cores destacam fases cruciais do processo.
 
 ### Comissão de Seleção
 
