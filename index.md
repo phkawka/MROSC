@@ -6,13 +6,13 @@ de parcerias entre o poder público e as organizações da sociedade civil.
 
 Fluxograma do Processo:
 
-1. Planejamento
-2. Chamamento Público
-3. Seleção da OSC
-4. Celebração da Parceria
-5. Execução
-6. Monitoramento e Avaliação
-7. Prestação de Contas
+1. [Planejamento](planejamento.md)
+2. [Chamamento Público](chamamento-publico.md)
+3. [Seleção da OSC](selecao-osc.md)
+4. [Celebração da Parceria](celebracao-parceria.md)
+5. [Execução](execucao.md)
+6. [Monitoramento e Avaliação](monitoramento-avaliacao.md)
+7. [Prestação de Contas](prestacao-contas.md)
 
 Clique em cada etapa para mais informações.
 
