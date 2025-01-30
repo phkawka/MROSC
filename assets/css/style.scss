@@ -168,3 +168,31 @@ footer {
 #back-to-top:hover {
   background-color: #2980b9;
 }
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  #menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  #menu.active {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
