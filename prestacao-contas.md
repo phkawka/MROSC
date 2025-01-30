@@ -39,6 +39,39 @@ A prestação de contas é uma etapa crucial no ciclo das parcerias entre o pode
    - Aprovação
    - Aprovação com ressalvas
    - Rejeição com determinação de imediata instauração de tomada de contas especial
+  
+## Fluxograma do Processo de Prestação de Contas
+
+<div class="mermaid">
+graph TD
+    A[Início] --> B[Preparação da Prestação<br>de Contas pela OSC]
+    B --> C[Elaboração do Relatório<br>de Execução do Objeto]
+    C --> D[Elaboração do Relatório<br>de Execução Financeira]
+    D --> E[Envio da Prestação de Contas<br>à Administração Pública]
+    E --> F[Análise da Prestação<br>de Contas]
+    F --> G{Necessidade de<br>Diligências?}
+    G -->|Sim| H[Notificação à OSC]
+    H --> I[Resposta da OSC]
+    I --> F
+    G -->|Não| J[Emissão de Parecer<br>Técnico Conclusivo]
+    J --> K{Resultado da<br>Análise}
+    K -->|Aprovação| L[Quitação da OSC]
+    K -->|Aprovação com Ressalvas| M[Determinação de<br>Medidas Saneadoras]
+    K -->|Rejeição| N[Determinação de<br>Devolução de Recursos]
+    M --> O[Monitoramento das<br>Medidas Saneadoras]
+    N --> P[Instauração de Tomada<br>de Contas Especial]
+    L --> Q[Arquivamento do Processo]
+    O --> Q
+    P --> Q
+    Q --> R[Fim]
+
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style F fill:#bfb,stroke:#333,stroke-width:2px
+    style J fill:#fbb,stroke:#333,stroke-width:2px
+</div>
+
+Este fluxograma ilustra as etapas principais do processo de Prestação de Contas, desde a preparação pela OSC até o arquivamento do processo. As cores destacam fases cruciais do processo.
 
 ### Relatório de Execução do Objeto
 
@@ -95,6 +128,9 @@ Após a prestação de contas, é importante refletir sobre as lições aprendid
 - [Execução]({{ site.baseurl }}/execucao)
 - [Monitoramento e Avaliação]({{ site.baseurl }}/monitoramento-avaliacao)
 - [Transparência e Controle Social]({{ site.baseurl }}/transparencia-controle-social)
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 
 </main>
 
