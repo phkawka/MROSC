@@ -2,6 +2,7 @@
 layout: default
 title: Guia Interativo da Lei do MROSC
 ---
+
 <script>
 document.documentElement.lang = 'pt-BR';
 </script>
@@ -12,23 +13,33 @@ document.documentElement.lang = 'pt-BR';
 
 {% include navigation.html %}
 
-<main id="conteudo-principal">
-  
+<main id="conteudo-principal" markdown="1">
+
 # Guia Interativo da Lei do MROSC
 
-Bem-vindo ao Guia Interativo da Lei do Marco Regulatório das Organizações da Sociedade Civil (MROSC). Este recurso foi criado para ajudar gestores públicos, membros de OSCs e cidadãos interessados a compreender melhor a Lei 13.019/2014.
+Bem-vindo ao Guia Interativo da Lei do Marco Regulatório das Organizações da Sociedade Civil (MROSC)!
 
-## Sobre este Guia
+Este guia foi desenvolvido para auxiliar gestores públicos, representantes de organizações da sociedade civil e demais interessados a compreender e aplicar a Lei 13.019/2014, conhecida como Lei do MROSC.
 
-Este guia interativo oferece uma visão abrangente do Marco Regulatório das Organizações da Sociedade Civil (MROSC). Ele aborda todas as etapas do processo, desde o planejamento inicial até a prestação de contas final. Navegue pelo menu acima para explorar cada seção em detalhes.
+## O que é o MROSC?
 
-## Como Usar
+O Marco Regulatório das Organizações da Sociedade Civil (MROSC) é uma agenda política ampla que tem como objetivo aperfeiçoar o ambiente jurídico e institucional relacionado às organizações da sociedade civil e suas relações de parceria com o Estado.
 
-Use o menu de navegação no topo da página para acessar as diferentes seções do guia. Cada seção fornece informações detalhadas sobre uma etapa específica do processo MROSC.
+## Sobre este guia
 
-## Contato
+Este guia interativo aborda as principais etapas e aspectos da Lei do MROSC, incluindo:
 
-Para mais informações ou dúvidas, entre em contato: [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
+1. [Planejamento](planejamento)
+2. [Chamamento Público](chamamento-publico)
+3. [Seleção da OSC](selecao-osc)
+4. [Celebração da Parceria](celebracao-parceria)
+5. [Execução](execucao)
+6. [Monitoramento e Avaliação](monitoramento-avaliacao)
+7. [Prestação de Contas](prestacao-contas)
+
+Além disso, oferecemos uma seção de [Perguntas Frequentes (FAQ)](faq) para esclarecer dúvidas comuns sobre a lei e sua aplicação.
+
+Navegue pelo menu para explorar cada etapa do processo e aprofundar seus conhecimentos sobre a Lei do MROSC.
 
 </main>
 
