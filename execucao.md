@@ -2,6 +2,7 @@
 layout: default
 title: Execução da Parceria na Lei do MROSC
 ---
+[Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
 {% include navigation.html %}
 
@@ -9,6 +10,7 @@ title: Execução da Parceria na Lei do MROSC
 document.documentElement.lang = 'pt-BR';
 </script>
 
+<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
 ## Execução da Parceria na Lei do MROSC
 
 O que é:
