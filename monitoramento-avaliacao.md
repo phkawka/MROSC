@@ -2,15 +2,17 @@
 layout: default
 title: Monitoramento e Avaliação na Lei do MROSC
 ---
-[Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
-
-{% include navigation.html %}
-
 <script>
 document.documentElement.lang = 'pt-BR';
 </script>
 
-<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
+[Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
+
+{% include header.html %}
+
+{% include navigation.html %}
+
+<main id="conteudo-principal" markdown="1">
 
 ## Monitoramento e Avaliação na Lei do MROSC
 
@@ -47,3 +49,7 @@ Artigos 58 a 60 da Lei 13.019/2014 - Estabelecem as diretrizes para o monitorame
 
 ### Próximos Passos:
 Após a conclusão da execução, segue-se a etapa de Prestação de Contas.
+
+</main>
+
+{% include footer.html %}
