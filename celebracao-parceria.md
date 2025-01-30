@@ -2,12 +2,15 @@
 layout: default
 title: Celebração da Parceria na Lei do MROSC
 ---
+[Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
 {% include navigation.html %}
 
 <script>
 document.documentElement.lang = 'pt-BR';
 </script>
+
+<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
 
 ## Celebração da Parceria na Lei do MROSC
 
