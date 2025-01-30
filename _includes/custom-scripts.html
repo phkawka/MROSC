@@ -18,12 +18,14 @@
   };
 
   // Menu dropdown
-var menuToggle = document.getElementById("menu-toggle");
-var menu = document.getElementById("menu");
+  var menuToggle = document.getElementById("menu-toggle");
+  var menu = document.querySelector("nav ul");
 
-menuToggle.onclick = function() {
-  menu.classList.toggle("active");
-  var expanded = menuToggle.getAttribute("aria-expanded") === "true" || false;
-  menuToggle.setAttribute("aria-expanded", !expanded);
-};
+  if (menuToggle && menu) {
+    menuToggle.onclick = function() {
+      menu.classList.toggle("active");
+      var expanded = menuToggle.getAttribute("aria-expanded") === "true" || false;
+      menuToggle.setAttribute("aria-expanded", !expanded);
+    };
+  }
 </script>
