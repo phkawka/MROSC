@@ -1,5 +1,6 @@
 <nav aria-label="Navegação principal">
-  <ul role="menubar">
+  <button id="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+  <ul id="menu" role="menubar">
     <li role="none"><a href="{{ site.baseurl }}/" role="menuitem">Início</a></li>
     <li role="none"><a href="{{ site.baseurl }}/planejamento" role="menuitem">Planejamento</a></li>
     <li role="none"><a href="{{ site.baseurl }}/chamamento-publico" role="menuitem">Chamamento Público</a></li>
@@ -9,13 +10,5 @@
     <li role="none"><a href="{{ site.baseurl }}/monitoramento-avaliacao" role="menuitem">Monitoramento e Avaliação</a></li>
     <li role="none"><a href="{{ site.baseurl }}/prestacao-contas" role="menuitem">Prestação de Contas</a></li>
     <li role="none"><a href="{{ site.baseurl }}/faq" role="menuitem">FAQ</a></li>
-  </ul>
-</nav>
-<nav>
-  <button id="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
-  <ul id="menu">
-    {% for item in site.data.navigation %}
-      <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-    {% endfor %}
   </ul>
 </nav>
