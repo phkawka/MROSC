@@ -49,7 +49,6 @@ header {
   background-color: #ffffff;
   padding: 30px 20px;
   text-align: center;
-  // Removido o box-shadow
 }
 
 header h1 {
@@ -148,6 +147,7 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
 #back-to-top {
   display: none;
   position: fixed;
@@ -168,6 +168,7 @@ footer {
 #back-to-top:hover {
   background-color: #2980b9;
 }
+
 #menu-toggle {
   display: none;
 }
@@ -181,14 +182,15 @@ footer {
     border: none;
     text-align: left;
     cursor: pointer;
+    font-weight: bold;
   }
 
-  #menu {
+  nav ul {
     display: none;
     flex-direction: column;
   }
 
-  #menu.active {
+  nav ul.active {
     display: flex;
   }
 
