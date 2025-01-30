@@ -39,7 +39,7 @@ Principais Aspectos:
 Dica Importante:
 O monitoramento deve ser visto como uma ferramenta de aprendizagem e melhoria contínua, não apenas como um mecanismo de controle.
 
-## Base Legal:
+### Base Legal:
 Artigos 58 a 60 da Lei 13.019/2014 - Estabelecem as diretrizes para o monitoramento e avaliação.
 
 ### Próximos Passos:
