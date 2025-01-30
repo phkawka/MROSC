@@ -2,6 +2,7 @@
 layout: default
 title: Prestação de Contas na Lei do MROSC
 ---
+[Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
 {% include navigation.html %}
 
@@ -9,6 +10,7 @@ title: Prestação de Contas na Lei do MROSC
 document.documentElement.lang = 'pt-BR';
 </script>
 
+<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
 ## Prestação de Contas na Lei do MROSC
 
 O que é:
