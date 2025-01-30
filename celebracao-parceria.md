@@ -1,3 +1,10 @@
+---
+layout: default
+title: Celebração da Parceria na Lei do MROSC
+---
+
+{% include navigation.html %}
+
 Celebração da Parceria na Lei do MROSC
 
 O que é:
