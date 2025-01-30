@@ -9,7 +9,7 @@ title: Execução da Parceria na Lei do MROSC
 document.documentElement.lang = 'pt-BR';
 </script>
 
-Execução da Parceria na Lei do MROSC
+# Execução da Parceria na Lei do MROSC
 
 O que é:
 A Execução é a fase em que a organização da sociedade civil (OSC) realiza as atividades previstas no plano de trabalho, utilizando os recursos repassados pela administração pública.
@@ -39,8 +39,8 @@ Principais Aspectos:
 Dica Importante:
 Mantenha uma comunicação constante com o gestor da parceria e documente todas as atividades realizadas e decisões tomadas durante a execução.
 
-Base Legal:
+## Base Legal:
 Artigos 51 a 56 da Lei 13.019/2014 - Tratam da execução das parcerias.
 
-Próximos Passos:
+### Próximos Passos:
 Durante a execução, ocorre simultaneamente o Monitoramento e Avaliação da parceria.
