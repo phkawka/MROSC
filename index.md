@@ -16,6 +16,7 @@ document.documentElement.lang = 'pt-BR';
 <a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
 
 <main>
+  
 # Guia Interativo da Lei do MROSC
 
 Bem-vindo ao Guia Interativo da Lei do Marco Regulatório das Organizações da Sociedade Civil (MROSC). Este recurso foi criado para ajudar gestores públicos, membros de OSCs e cidadãos interessados a compreender melhor a Lei 13.019/2014.
@@ -31,6 +32,7 @@ Use o menu de navegação no topo da página para acessar as diferentes seções
 ## Contato
 
 Para mais informações ou dúvidas, entre em contato: [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
+
 </main>
 
 {% include footer.html %}
