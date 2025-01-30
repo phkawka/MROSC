@@ -2,8 +2,15 @@
 layout: default
 title: Perguntas Frequentes (FAQ)
 ---
+<script>
+document.documentElement.lang = 'pt-BR';
+</script>
+
+[Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
 {% include navigation.html %}
+
+<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
 
 # Perguntas Frequentes (FAQ)
 
