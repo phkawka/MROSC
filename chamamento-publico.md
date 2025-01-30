@@ -5,6 +5,10 @@ title: Chamamento Público na Lei do MROSC
 
 {% include navigation.html %}
 
+<script>
+document.documentElement.lang = 'pt-BR';
+</script>
+
 Chamamento Público na Lei do MROSC
 
 O que é:
