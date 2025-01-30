@@ -16,42 +16,92 @@ document.documentElement.lang = 'pt-BR';
 
 ## Celebração da Parceria na Lei do MROSC
 
-O que é:
-A Celebração da Parceria é a formalização do acordo entre a administração pública e a organização da sociedade civil (OSC) selecionada, por meio da assinatura do termo de colaboração, termo de fomento ou acordo de cooperação.
+A celebração da parceria é o momento formal em que o poder público e a Organização da Sociedade Civil (OSC) selecionada firmam o acordo para a execução do projeto ou atividade de interesse público. Esta etapa é crucial para estabelecer os termos, condições e responsabilidades de ambas as partes.
 
-Principais Aspectos:
+### Importância da Celebração da Parceria
 
-1. Elaboração do Instrumento:
-   - Redação do termo de parceria com todas as cláusulas essenciais.
-   - Definição clara de direitos e obrigações de ambas as partes.
+- Formaliza o acordo entre o poder público e a OSC
+- Estabelece claramente os direitos e obrigações de cada parte
+- Define os parâmetros para a execução, monitoramento e avaliação da parceria
 
-2. Plano de Trabalho:
-   - Inclusão do plano de trabalho detalhado como parte integrante do termo.
-   - Especificação de metas, etapas, prazos e indicadores.
+### Requisitos para Celebração
 
-3. Designação do Gestor:
-   - Nomeação do gestor da parceria pela administração pública.
-   - Definição das responsabilidades do gestor.
+1. **Regularidade Jurídica e Fiscal da OSC**
+   - Certidões de regularidade fiscal, previdenciária, tributária, de contribuições e de dívida ativa
+   - Certidão de existência jurídica
+   - Cópia do estatuto registrado e suas alterações
 
-4. Comissão de Monitoramento:
-   - Designação da comissão de monitoramento e avaliação.
+2. **Capacidade Técnica e Operacional**
+   - Comprovação de experiência prévia na realização do objeto da parceria ou de natureza semelhante
+   - Instalações, condições materiais e capacidade técnica e operacional para o desenvolvimento das atividades
 
-5. Parecer Técnico e Jurídico:
-   - Emissão de parecer técnico do órgão responsável pela política pública.
-   - Análise jurídica do instrumento de parceria.
+3. **Plano de Trabalho Aprovado**
+   - Descrição da realidade que será objeto da parceria
+   - Metas a serem atingidas
+   - Previsão de receitas e despesas
+   - Forma de execução das atividades ou projetos
 
-6. Assinatura e Publicação:
-   - Assinatura do termo pelas partes.
-   - Publicação do extrato do termo no meio oficial de publicidade.
+### Tipos de Instrumentos de Parceria
 
-Dica Importante:
-Certifique-se de que todas as cláusulas essenciais estejam presentes no termo de parceria, conforme o Art. 42 da Lei 13.019/2014.
+1. **Termo de Colaboração**
+   - Utilizado para parcerias propostas pela administração pública
+   - Envolve transferência de recursos financeiros
 
-### Base Legal:
-Artigos 35 a 42 da Lei 13.019/2014 - Regulamentam a celebração e formalização das parcerias.
+2. **Termo de Fomento**
+   - Utilizado para parcerias propostas pelas OSCs
+   - Envolve transferência de recursos financeiros
 
-### Próximos Passos:
-Após a celebração, inicia-se a fase de Execução da parceria.
+3. **Acordo de Cooperação**
+   - Não envolve transferência de recursos financeiros
+
+### Processo de Celebração
+
+1. **Indicação Expressa da Existência de Prévia Dotação Orçamentária**
+   - Garantia de que há recursos disponíveis para a execução da parceria
+
+2. **Demonstração de que os Objetivos e Finalidades Institucionais da OSC foram Avaliados**
+   - Verificação da compatibilidade entre o objeto da parceria e as atividades da OSC
+
+3. **Aprovação do Plano de Trabalho**
+   - Análise e aprovação do plano de trabalho pela administração pública
+
+4. **Emissão de Parecer Jurídico**
+   - Análise da juridicidade da parceria pelo órgão de assessoria ou consultoria jurídica da administração pública
+
+5. **Assinatura do Instrumento de Parceria**
+   - Formalização do acordo entre as partes
+
+### Cláusulas Essenciais do Instrumento de Parceria
+
+- Descrição do objeto pactuado
+- Obrigações das partes
+- Valor total e cronograma de desembolso
+- Vigência e hipóteses de prorrogação
+- Prestação de contas
+- Forma de monitoramento e avaliação
+
+### Publicidade
+
+- Publicação do extrato do termo de parceria no diário oficial
+- Divulgação em plataforma eletrônica do termo de parceria e do plano de trabalho
+
+### Dicas para uma Celebração Eficaz
+
+- Verifique cuidadosamente toda a documentação necessária
+- Assegure-se de que o plano de trabalho está detalhado e alinhado com os objetivos da parceria
+- Estabeleça metas e indicadores claros para facilitar o monitoramento e avaliação
+- Defina claramente as responsabilidades de cada parte no instrumento de parceria
+
+### Base Legal
+- Artigos 33 a 38 da Lei 13.019/2014 - Estabelecem os requisitos e procedimentos para a celebração da parceria
+
+### Próximos Passos
+Após a celebração da parceria, inicia-se a fase de [Execução]({{ site.baseurl }}/execucao), onde o projeto ou atividade será efetivamente realizado.
+
+### Conteúdos Relacionados
+- [Seleção da OSC]({{ site.baseurl }}/selecao-osc)
+- [Execução]({{ site.baseurl }}/execucao)
+- [Monitoramento e Avaliação]({{ site.baseurl }}/monitoramento-avaliacao)
 
 </main>
 
