@@ -5,6 +5,10 @@ title: Execução da Parceria na Lei do MROSC
 
 {% include navigation.html %}
 
+<script>
+document.documentElement.lang = 'pt-BR';
+</script>
+
 Execução da Parceria na Lei do MROSC
 
 O que é:
