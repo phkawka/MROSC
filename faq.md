@@ -8,9 +8,11 @@ document.documentElement.lang = 'pt-BR';
 
 [Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
+{% include header.html %}
+
 {% include navigation.html %}
 
-<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
+<main id="conteudo-principal" markdown="1">
 
 # Perguntas Frequentes (FAQ)
 
@@ -63,3 +65,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 });
 </script>
+
+</main>
+
+{% include footer.html %}
