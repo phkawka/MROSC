@@ -51,3 +51,30 @@ nav ul li a:hover {
   color: #2980b9;  // Usando a mesma cor de hover que você já definiu
   text-decoration: underline;
 }
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  background-color: #f8f9fa;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.faq-question:hover {
+  background-color: #e9ecef;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 0 0 5px 5px;
+}
