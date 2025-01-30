@@ -8,10 +8,12 @@ document.documentElement.lang = 'pt-BR';
 
 [Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
+{% include header.html %}
+
 {% include navigation.html %}
 
-<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
-
+<main id="conteudo-principal" markdown="1">
+   
 ## Planejamento na Lei do MROSC
 
 O que é:
@@ -50,3 +52,7 @@ Artigo 22 da Lei 13.019/2014 - Define os elementos que devem constar no plano de
 ### Próximos Passos:
 Após concluir o planejamento, o próximo passo é o Chamamento Público, onde as OSCs serão convidadas 
 a apresentar propostas para a parceria.
+
+</main>
+
+{% include footer.html %}
