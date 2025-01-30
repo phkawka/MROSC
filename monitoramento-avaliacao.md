@@ -1,3 +1,10 @@
+---
+layout: default
+title: Monitoramento e Avaliação na Lei do MROSC
+---
+
+{% include navigation.html %}
+
 Monitoramento e Avaliação na Lei do MROSC
 
 O que é:
