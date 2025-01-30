@@ -2,6 +2,7 @@
 layout: default
 title: Guia Interativo da Lei do MROSC
 ---
+[Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
 {% include navigation.html %}
 
