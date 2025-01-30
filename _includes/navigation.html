@@ -14,6 +14,8 @@
 <nav>
   <button id="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
   <ul id="menu">
-    <!-- Seus itens de menu aqui -->
+    {% for item in site.data.navigation %}
+      <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+    {% endfor %}
   </ul>
 </nav>
