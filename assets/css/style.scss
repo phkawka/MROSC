@@ -59,7 +59,7 @@ header h1 {
 
 nav {
   background-color: #f8f9fa;
-  padding: 15px 0;
+  padding: 15px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -74,7 +74,7 @@ nav {
 }
 
 #menu li {
-  margin: 0 15px;
+  margin: 0 15px 10px 15px;
 }
 
 #menu li a {
@@ -91,28 +91,28 @@ nav {
 
 #menu-toggle {
   display: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
   #menu-toggle {
     display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #f8f9fa;
-    border: none;
-    text-align: left;
-    cursor: pointer;
-    font-weight: bold;
   }
 
   #menu {
+    display: none;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
   }
 
-  #menu.menu-hidden {
-    display: none;
+  #menu.active {
+    display: flex;
   }
 
   #menu li {
@@ -127,7 +127,64 @@ nav {
   }
 }
 
-/* Resto do seu CSS aqui */
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  background-color: #f8f9fa;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.faq-question:hover {
+  background-color: #e9ecef;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 0 0 5px 5px;
+}
+
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
 
 #back-to-top {
   display: none;
