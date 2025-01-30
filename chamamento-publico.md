@@ -8,9 +8,11 @@ document.documentElement.lang = 'pt-BR';
 
 [Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
+{% include header.html %}
+
 {% include navigation.html %}
 
-<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
+<main id="conteudo-principal" markdown="1">
 
 ## Chamamento Público na Lei do MROSC
 
@@ -50,3 +52,7 @@ Artigos 23 a 32 da Lei 13.019/2014 - Regulamentam o processo de chamamento públ
 
 ### Próximos Passos:
 Após a conclusão do chamamento público, segue-se a etapa de Seleção da OSC.
+
+</main>
+
+{% include footer.html %}
