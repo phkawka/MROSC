@@ -9,7 +9,7 @@ title: Monitoramento e Avaliação na Lei do MROSC
 document.documentElement.lang = 'pt-BR';
 </script>
 
-Monitoramento e Avaliação na Lei do MROSC
+# Monitoramento e Avaliação na Lei do MROSC
 
 O que é:
 O Monitoramento e Avaliação são processos contínuos de acompanhamento e verificação da execução da parceria, realizados pela administração pública para assegurar o cumprimento do objeto e o alcance das metas acordadas.
@@ -39,8 +39,8 @@ Principais Aspectos:
 Dica Importante:
 O monitoramento deve ser visto como uma ferramenta de aprendizagem e melhoria contínua, não apenas como um mecanismo de controle.
 
-Base Legal:
+## Base Legal:
 Artigos 58 a 60 da Lei 13.019/2014 - Estabelecem as diretrizes para o monitoramento e avaliação.
 
-Próximos Passos:
+### Próximos Passos:
 Após a conclusão da execução, segue-se a etapa de Prestação de Contas.
