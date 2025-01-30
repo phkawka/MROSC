@@ -1,3 +1,10 @@
+---
+layout: default
+title: Planejamento na Lei do MROSC
+---
+
+{% include navigation.html %}
+
 Planejamento na Lei do MROSC
 
 O que é:
