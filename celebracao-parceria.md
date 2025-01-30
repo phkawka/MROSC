@@ -9,7 +9,7 @@ title: Celebração da Parceria na Lei do MROSC
 document.documentElement.lang = 'pt-BR';
 </script>
 
-# Celebração da Parceria na Lei do MROSC
+## Celebração da Parceria na Lei do MROSC
 
 O que é:
 A Celebração da Parceria é a formalização do acordo entre a administração pública e a organização da sociedade civil (OSC) selecionada, por meio da assinatura do termo de colaboração, termo de fomento ou acordo de cooperação.
@@ -42,7 +42,7 @@ Principais Aspectos:
 Dica Importante:
 Certifique-se de que todas as cláusulas essenciais estejam presentes no termo de parceria, conforme o Art. 42 da Lei 13.019/2014.
 
-## Base Legal:
+### Base Legal:
 Artigos 35 a 42 da Lei 13.019/2014 - Regulamentam a celebração e formalização das parcerias.
 
 ### Próximos Passos:
