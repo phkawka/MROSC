@@ -1,47 +1,26 @@
 <script>
-  // Botão Voltar ao Topo
-  var backToTopButton = document.getElementById("back-to-top");
+  document.addEventListener('DOMContentLoaded', function() {
+    var menuToggle = document.getElementById('menu-toggle');
+    var menu = document.getElementById('menu');
 
-  window.onscroll = function() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      backToTopButton.style.display = "block";
-    } else {
-      backToTopButton.style.display = "none";
+    if (menuToggle && menu) {
+      menuToggle.addEventListener('click', function() {
+        menu.classList.toggle('active');
+        menuToggle.setAttribute('aria-expanded', menu.classList.contains('active'));
+      });
     }
-  };
 
-  backToTopButton.onclick = function() {
-    document.body.scrollTop = 0; // Para Safari
-    document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE e Opera
-  };
-
-  // Menu dropdown
-  var menuToggle = document.getElementById("menu-toggle");
-  var menu = document.getElementById("menu");
-
-  if (menuToggle && menu) {
-    menuToggle.onclick = function(event) {
-      event.preventDefault();
-      menu.classList.toggle("menu-hidden");
-      var expanded = menuToggle.getAttribute("aria-expanded") === "true" || false;
-      menuToggle.setAttribute("aria-expanded", !expanded);
-    };
-  }
-
-  // Função para ajustar o menu com base no tamanho da tela
-  function adjustMenu() {
-    if (window.innerWidth > 768) {
-      menuToggle.style.display = 'none';
-      menu.classList.remove('menu-hidden');
-    } else {
-      menuToggle.style.display = 'block';
-      if (!menu.classList.contains('menu-hidden')) {
-        menu.classList.add('menu-hidden');
+    function adjustMenu() {
+      if (window.innerWidth > 768) {
+        menu.style.display = 'block';
+        menuToggle.style.display = 'none';
+      } else {
+        menu.style.display = menu.classList.contains('active') ? 'block' : 'none';
+        menuToggle.style.display = 'block';
       }
     }
-  }
 
-  // Executar no carregamento da página e no redimensionamento
-  window.addEventListener('load', adjustMenu);
-  window.addEventListener('resize', adjustMenu);
+    window.addEventListener('resize', adjustMenu);
+    adjustMenu(); // Run once on load
+  });
 </script>
