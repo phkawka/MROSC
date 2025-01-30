@@ -1,3 +1,10 @@
+---
+layout: default
+title: Execução da Parceria na Lei do MROSC
+---
+
+{% include navigation.html %}
+
 Execução da Parceria na Lei do MROSC
 
 O que é:
