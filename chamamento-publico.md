@@ -32,6 +32,39 @@ O chamamento público é obrigatório para a celebração de termos de colabora�
 - Casos de guerra, calamidade pública, grave perturbação da ordem pública ou ameaça à paz social
 - Programas de proteção a pessoas ameaçadas ou em situação que possa comprometer sua segurança
 
+## Fluxograma do Processo de Chamamento Público
+
+<div class="mermaid">
+graph TD
+    A[Início] --> B[Planejamento do Edital]
+    B --> C[Elaboração do Edital]
+    C --> D[Aprovação Jurídica]
+    D --> E[Publicação do Edital]
+    E --> F{Impugnação<br>do Edital?}
+    F -->|Sim| G[Análise da Impugnação]
+    G --> H{Impugnação<br>Aceita?}
+    H -->|Sim| I[Retificação do Edital]
+    I --> E
+    H -->|Não| J[Manutenção do Edital]
+    J --> K[Recebimento das Propostas]
+    F -->|Não| K
+    K --> L[Abertura e Avaliação<br>das Propostas]
+    L --> M[Divulgação do<br>Resultado Preliminar]
+    M --> N{Recursos<br>Apresentados?}
+    N -->|Sim| O[Análise dos Recursos]
+    O --> P[Decisão Final]
+    N -->|Não| P
+    P --> Q[Homologação e<br>Publicação do Resultado]
+    Q --> R[Fim]
+
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style L fill:#bfb,stroke:#333,stroke-width:2px
+    style Q fill:#fbb,stroke:#333,stroke-width:2px
+</div>
+
+Este fluxograma ilustra as principais etapas do processo de Chamamento Público, desde o planejamento do edital até a publicação do resultado final. As cores destacam fases cruciais do processo.
+
 ### Etapas do Chamamento Público
 
 1. **Planejamento e Elaboração do Edital**
@@ -87,6 +120,9 @@ Após a conclusão do chamamento público, segue-se para a etapa de [Seleção d
 - [Planejamento]({{ site.baseurl }}/planejamento)
 - [Seleção da OSC]({{ site.baseurl }}/selecao-osc)
 - [Celebração da Parceria]({{ site.baseurl }}/celebracao-parceria)
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 
 </main>
 
