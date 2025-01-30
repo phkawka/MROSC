@@ -5,6 +5,9 @@ title: Prestação de Contas na Lei do MROSC
 
 {% include navigation.html %}
 
+<script>
+document.documentElement.lang = 'pt-BR';
+</script>
 
 Prestação de Contas na Lei do MROSC
 
