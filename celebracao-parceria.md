@@ -8,9 +8,11 @@ document.documentElement.lang = 'pt-BR';
 
 [Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
+{% include header.html %}
+
 {% include navigation.html %}
 
-<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
+<main id="conteudo-principal" markdown="1">
 
 ## Celebração da Parceria na Lei do MROSC
 
@@ -50,3 +52,7 @@ Artigos 35 a 42 da Lei 13.019/2014 - Regulamentam a celebração e formalizaçã
 
 ### Próximos Passos:
 Após a celebração, inicia-se a fase de Execução da parceria.
+
+</main>
+
+{% include footer.html %}
