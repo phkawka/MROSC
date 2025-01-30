@@ -3,19 +3,22 @@
     var menuToggle = document.getElementById('menu-toggle');
     var menu = document.getElementById('menu');
 
+    function toggleMenu() {
+      menu.classList.toggle('active');
+      menuToggle.setAttribute('aria-expanded', menu.classList.contains('active'));
+    }
+
     if (menuToggle && menu) {
-      menuToggle.addEventListener('click', function() {
-        menu.classList.toggle('active');
-        menuToggle.setAttribute('aria-expanded', menu.classList.contains('active'));
-      });
+      menuToggle.addEventListener('click', toggleMenu);
     }
 
     function adjustMenu() {
       if (window.innerWidth > 768) {
-        menu.style.display = 'block';
+        menu.classList.remove('active');
+        menu.style.display = 'flex';
         menuToggle.style.display = 'none';
       } else {
-        menu.style.display = menu.classList.contains('active') ? 'block' : 'none';
+        menu.style.display = menu.classList.contains('active') ? 'flex' : 'none';
         menuToggle.style.display = 'block';
       }
     }
@@ -23,4 +26,20 @@
     window.addEventListener('resize', adjustMenu);
     adjustMenu(); // Run once on load
   });
+
+  // Botão Voltar ao Topo
+  var backToTopButton = document.getElementById("back-to-top");
+
+  window.onscroll = function() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      backToTopButton.style.display = "block";
+    } else {
+      backToTopButton.style.display = "none";
+    }
+  };
+
+  backToTopButton.onclick = function() {
+    document.body.scrollTop = 0; // Para Safari
+    document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE e Opera
+  };
 </script>
