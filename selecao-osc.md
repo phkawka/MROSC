@@ -8,9 +8,11 @@ document.documentElement.lang = 'pt-BR';
 
 [Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
 
+{% include header.html %}
+
 {% include navigation.html %}
 
-<a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
+<main id="conteudo-principal" markdown="1">
 
 ## Seleção da OSC na Lei do MROSC
 
@@ -51,3 +53,7 @@ Artigos 33, 34 e 35 da Lei 13.019/2014 - Estabelecem requisitos e procedimentos 
 
 ### Próximos Passos:
 Após a seleção da OSC, procede-se à etapa de Celebração da Parceria.
+
+</main>
+
+{% include footer.html %}
