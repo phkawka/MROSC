@@ -20,15 +20,22 @@
   var menu = document.getElementById("menu");
 
   if (menuToggle && menu) {
-    menuToggle.onclick = function() {
+    menuToggle.onclick = function(event) {
+      event.preventDefault();
       menu.classList.toggle("active");
       var expanded = menuToggle.getAttribute("aria-expanded") === "true" || false;
       menuToggle.setAttribute("aria-expanded", !expanded);
+      
+      if (menu.classList.contains("active")) {
+        menu.style.display = "flex";
+      } else {
+        menu.style.display = "none";
+      }
     };
   }
 
-  // Esconder menu-toggle em telas grandes
-  window.addEventListener('resize', function() {
+  // Função para ajustar o menu com base no tamanho da tela
+  function adjustMenu() {
     if (window.innerWidth > 768) {
       menuToggle.style.display = 'none';
       menu.classList.remove('active');
@@ -39,14 +46,9 @@
         menu.style.display = 'none';
       }
     }
-  });
-
-  // Executar uma vez no carregamento da página
-  if (window.innerWidth > 768) {
-    menuToggle.style.display = 'none';
-    menu.style.display = 'flex';
-  } else {
-    menuToggle.style.display = 'block';
-    menu.style.display = 'none';
   }
+
+  // Executar no carregamento da página e no redimensionamento
+  window.addEventListener('load', adjustMenu);
+  window.addEventListener('resize', adjustMenu);
 </script>
