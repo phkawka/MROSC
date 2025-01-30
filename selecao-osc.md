@@ -9,7 +9,7 @@ title: Seleção da OSC na Lei do MROSC
 document.documentElement.lang = 'pt-BR';
 </script>
 
-Seleção da OSC na Lei do MROSC
+# Seleção da OSC na Lei do MROSC
 
 O que é:
 A Seleção da OSC é o processo de escolha da organização da sociedade civil que irá firmar a parceria com a administração pública, com base nos critérios estabelecidos no edital de chamamento público.
@@ -43,8 +43,8 @@ Verificação de possíveis impedimentos para celebração da parceria (Art. 39 
 Dica Importante:
 Mantenha registros detalhados de todo o processo de seleção, incluindo as justificativas para as pontuações atribuídas a cada proposta.
 
-Base Legal:
+## Base Legal:
 Artigos 33, 34 e 35 da Lei 13.019/2014 - Estabelecem requisitos e procedimentos para a seleção das OSCs.
 
-Próximos Passos:
+### Próximos Passos:
 Após a seleção da OSC, procede-se à etapa de Celebração da Parceria.
