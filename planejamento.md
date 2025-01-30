@@ -16,42 +16,63 @@ document.documentElement.lang = 'pt-BR';
    
 ## Planejamento na Lei do MROSC
 
-O que é:
-A fase de planejamento é o primeiro passo crucial no processo de parceria entre o poder público e as 
-organizações da sociedade civil (OSCs). Nesta etapa, são definidos os objetivos, metas e recursos 
-necessários para a realização da parceria.
+O planejamento é a etapa fundamental para o sucesso de qualquer parceria entre o poder público e as organizações da sociedade civil (OSCs). Um bom planejamento ajuda a definir objetivos claros, alinhar expectativas e estabelecer as bases para uma execução eficaz.
 
-Principais Aspectos:
+### Importância do Planejamento
 
-1. Definição de Objetivos:
-   - Identificar claramente o que a parceria pretende alcançar.
-   - Alinhar os objetivos com as políticas públicas existentes.
+- Estabelece objetivos claros e mensuráveis
+- Alinha as ações com as políticas públicas
+- Otimiza o uso de recursos
+- Facilita o monitoramento e a avaliação dos resultados
 
-2. Elaboração do Plano de Trabalho:
-   - Descrever detalhadamente as atividades a serem realizadas.
-   - Estabelecer metas mensuráveis e prazos realistas.
+### Etapas do Processo de Planejamento
 
-3. Previsão Orçamentária:
-   - Estimar os custos envolvidos na execução do projeto.
-   - Identificar as fontes de recursos.
+1. **Identificação de Necessidades**
+   - Realize diagnósticos da realidade local
+   - Consulte a comunidade e especialistas
+   - Analise dados e indicadores relevantes
 
-4. Definição de Indicadores:
-   - Criar indicadores para medir o sucesso e o impacto da parceria.
+2. **Definição de Objetivos**
+   - Estabeleça objetivos SMART (Específicos, Mensuráveis, Alcançáveis, Relevantes e Temporais)
+   - Alinhe os objetivos com as metas de políticas públicas existentes
 
-5. Análise de Viabilidade:
-   - Avaliar a capacidade técnica e operacional necessária.
-   - Considerar possíveis riscos e desafios.
+3. **Alinhamento com Políticas Públicas**
+   - Verifique a conformidade com planos municipais, estaduais e federais
+   - Identifique possíveis sinergias com outras iniciativas governamentais
 
-Dica Importante:
-Envolva diferentes setores da administração pública e, se possível, representes das OSCs na fase de 
-planejamento. Isso ajuda a criar um plano mais robusto e realista.
+4. **Elaboração do Plano de Trabalho**
+   - Descreva detalhadamente as atividades a serem realizadas
+   - Defina cronograma e metas
+   - Estime os recursos necessários (financeiros, humanos, materiais)
 
-### Base Legal:
+### Previsão Orçamentária
+- Estimar os custos envolvidos na execução do projeto
+- Identificar as fontes de recursos
+
+### Definição de Indicadores
+- Criar indicadores para medir o sucesso e o impacto da parceria
+
+### Análise de Viabilidade
+- Avaliar a capacidade técnica e operacional necessária
+- Considerar possíveis riscos e desafios
+
+### Dicas para um Planejamento Eficaz
+
+- Envolva todas as partes interessadas no processo de planejamento
+- Considere possíveis riscos e planeje contingências
+- Mantenha flexibilidade para ajustes durante a execução
+- Documente todas as decisões e justificativas
+
+### Base Legal
 Artigo 22 da Lei 13.019/2014 - Define os elementos que devem constar no plano de trabalho.
 
-### Próximos Passos:
-Após concluir o planejamento, o próximo passo é o Chamamento Público, onde as OSCs serão convidadas 
-a apresentar propostas para a parceria.
+### Próximos Passos
+Após concluir o planejamento, o próximo passo é geralmente o Chamamento Público (quando aplicável) ou a Seleção da OSC.
+
+### Conteúdos Relacionados
+- [Chamamento Público]({{ site.baseurl }}/chamamento-publico)
+- [Elaboração do Plano de Trabalho]({{ site.baseurl }}/plano-de-trabalho)
+- [Seleção da OSC]({{ site.baseurl }}/selecao-osc)
 
 </main>
 
