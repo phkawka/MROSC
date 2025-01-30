@@ -5,6 +5,10 @@ title: Planejamento na Lei do MROSC
 
 {% include navigation.html %}
 
+<script>
+document.documentElement.lang = 'pt-BR';
+</script>
+
 Planejamento na Lei do MROSC
 
 O que é:
