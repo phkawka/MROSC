@@ -1,23 +1,21 @@
+{% raw %}
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: site.github.repository_name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Guia Interativo da Lei do MROSC</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
     <header class="page-header">
-      <h1 class="project-name">Guia Interativo da Lei do MROSC</h1>
-      <h2 class="project-tagline">Um recurso para entender o Marco Regulatório das Organizações da Sociedade Civil</h2>
-      <a href="{{ '/' | relative_url }}" class="btn">Início</a>
-      <a href="{{ '/planejamento' | relative_url }}" class="btn">Planejamento</a>
-      <a href="{{ '/chamamento-publico' | relative_url }}" class="btn">Chamamento Público</a>
-      <a href="{{ '/selecao-osc' | relative_url }}" class="btn">Seleção da OSC</a>
-      <a href="{{ '/celebracao-parceria' | relative_url }}" class="btn">Celebração da Parceria</a>
-      <a href="{{ '/execucao' | relative_url }}" class="btn">Execução</a>
-      <a href="{{ '/monitoramento-avaliacao' | relative_url }}" class="btn">Monitoramento e Avaliação</a>
-      <a href="{{ '/prestacao-contas' | relative_url }}" class="btn">Prestação de Contas</a>
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      {% for page in site.pages %}
+        {% if page.title %}
+          <a href="{{ page.url | relative_url }}" class="btn">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -26,8 +24,8 @@
 
     <footer class="site-footer">
       <span class="site-footer-owner">Guia Interativo da Lei do MROSC</span>
-      <span class="site-footer-credits">Desenvolvido para auxiliar na compreensão da Lei 13.019/2014.</span>
-      <p>Para mais informações, entre em contato: <a href="mailto:seu-email@exemplo.com">seu-email@exemplo.com</a></p>
+      <span class="site-footer-credits">Esta página foi gerada por <a href="https://pages.github.com">GitHub Pages</a>.</span>
     </footer>
   </body>
 </html>
+{% endraw %}
