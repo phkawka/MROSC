@@ -22,15 +22,9 @@
   if (menuToggle && menu) {
     menuToggle.onclick = function(event) {
       event.preventDefault();
-      menu.classList.toggle("active");
+      menu.classList.toggle("menu-hidden");
       var expanded = menuToggle.getAttribute("aria-expanded") === "true" || false;
       menuToggle.setAttribute("aria-expanded", !expanded);
-      
-      if (menu.classList.contains("active")) {
-        menu.style.display = "flex";
-      } else {
-        menu.style.display = "none";
-      }
     };
   }
 
@@ -38,12 +32,11 @@
   function adjustMenu() {
     if (window.innerWidth > 768) {
       menuToggle.style.display = 'none';
-      menu.classList.remove('active');
-      menu.style.display = 'flex';
+      menu.classList.remove('menu-hidden');
     } else {
       menuToggle.style.display = 'block';
-      if (!menu.classList.contains('active')) {
-        menu.style.display = 'none';
+      if (!menu.classList.contains('menu-hidden')) {
+        menu.classList.add('menu-hidden');
       }
     }
   }
