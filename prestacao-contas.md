@@ -2,15 +2,16 @@
 layout: default
 title: Prestação de Contas na Lei do MROSC
 ---
-[Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
-
-{% include navigation.html %}
-
 <script>
 document.documentElement.lang = 'pt-BR';
 </script>
 
+[Pular para o conteúdo principal](#conteudo-principal){:.skip-to-content}
+
+{% include navigation.html %}
+
 <a id="conteudo-principal" class="visually-hidden">Início do conteúdo principal</a>
+
 ## Prestação de Contas na Lei do MROSC
 
 O que é:
