@@ -5,6 +5,10 @@ title: Celebração da Parceria na Lei do MROSC
 
 {% include navigation.html %}
 
+<script>
+document.documentElement.lang = 'pt-BR';
+</script>
+
 Celebração da Parceria na Lei do MROSC
 
 O que é:
