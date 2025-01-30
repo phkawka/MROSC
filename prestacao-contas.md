@@ -9,7 +9,7 @@ title: Prestação de Contas na Lei do MROSC
 document.documentElement.lang = 'pt-BR';
 </script>
 
-# Prestação de Contas na Lei do MROSC
+## Prestação de Contas na Lei do MROSC
 
 O que é:
 A Prestação de Contas é o procedimento em que se analisa e avalia a execução da parceria, verificando o cumprimento do objeto e o alcance das metas e resultados previstos.
@@ -39,7 +39,7 @@ Principais Aspectos:
 Dica Importante:
 Mantenha uma organização rigorosa de todos os documentos e informações desde o início da parceria, facilitando o processo de prestação de contas.
 
-## Base Legal:
+### Base Legal:
 Artigos 63 a 72 da Lei 13.019/2014 - Regulamentam o processo de prestação de contas.
 
 ### Conclusão:
