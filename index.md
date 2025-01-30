@@ -2,9 +2,6 @@
 layout: default
 title: Guia Interativo da Lei do MROSC
 ---
-<a href="#main-content" class="skip-to-content">Pular para o conteúdo principal</a>
-
-<div id="main-content">
 
 {% include navigation.html %}
 
@@ -27,4 +24,3 @@ Use o menu de navegação no topo da página para acessar as diferentes seções
 ## Contato
 
 Para mais informações ou dúvidas, entre em contato: [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
-</div>
