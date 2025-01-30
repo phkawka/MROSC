@@ -9,7 +9,7 @@ title: Planejamento na Lei do MROSC
 document.documentElement.lang = 'pt-BR';
 </script>
 
-Planejamento na Lei do MROSC
+# Planejamento na Lei do MROSC
 
 O que é:
 A fase de planejamento é o primeiro passo crucial no processo de parceria entre o poder público e as 
@@ -41,9 +41,9 @@ Dica Importante:
 Envolva diferentes setores da administração pública e, se possível, representes das OSCs na fase de 
 planejamento. Isso ajuda a criar um plano mais robusto e realista.
 
-Base Legal:
+## Base Legal:
 Artigo 22 da Lei 13.019/2014 - Define os elementos que devem constar no plano de trabalho.
 
-Próximos Passos:
+### Próximos Passos:
 Após concluir o planejamento, o próximo passo é o Chamamento Público, onde as OSCs serão convidadas 
 a apresentar propostas para a parceria.
