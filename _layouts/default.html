@@ -1,0 +1,31 @@
+{% raw %}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: site.github.repository_name }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      {% for page in site.pages %}
+        {% if page.title %}
+          <a href="{{ page.url | relative_url }}" class="btn">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <span class="site-footer-owner">Guia Interativo da Lei do MROSC</span>
+      <span class="site-footer-credits">Esta página foi gerada por <a href="https://pages.github.com">GitHub Pages</a>.</span>
+    </footer>
+  </body>
+</html>
+{% endraw %}
