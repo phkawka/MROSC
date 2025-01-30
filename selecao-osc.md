@@ -56,6 +56,41 @@ Os critérios de seleção devem ser claros, objetivos e alinhados com o objeto 
 
 3. **Diligências**
    - Esclarecimento de dúvidas ou solicitação de informações adicionais, se necessário
+  
+   ## Fluxograma do Processo de Seleção da OSC
+
+<div class="mermaid">
+graph TD
+    A[Início] --> B[Recebimento das Propostas]
+    B --> C[Abertura dos Envelopes]
+    C --> D[Análise dos Documentos<br>de Habilitação]
+    D --> E{OSC Habilitada?}
+    E -->|Não| F[Inabilitação da OSC]
+    E -->|Sim| G[Análise Técnica<br>da Proposta]
+    G --> H[Avaliação e Pontuação<br>conforme Critérios do Edital]
+    H --> I[Classificação das Propostas]
+    I --> J[Divulgação do<br>Resultado Preliminar]
+    J --> K{Recursos<br>Apresentados?}
+    K -->|Sim| L[Análise dos Recursos]
+    L --> M[Decisão sobre os Recursos]
+    M --> N[Divulgação do<br>Resultado Final]
+    K -->|Não| N
+    N --> O[Homologação do Resultado]
+    O --> P[Convocação da OSC<br>Selecionada]
+    P --> Q[Verificação dos Requisitos<br>para Celebração]
+    Q --> R{Requisitos<br>Atendidos?}
+    R -->|Sim| S[Celebração da Parceria]
+    R -->|Não| T[Convocação da Próxima<br>OSC Classificada]
+    T --> Q
+    S --> U[Fim]
+
+    style D fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#bbf,stroke:#333,stroke-width:2px
+    style J fill:#bfb,stroke:#333,stroke-width:2px
+    style Q fill:#fbb,stroke:#333,stroke-width:2px
+</div>
+
+Este fluxograma ilustra as etapas principais do processo de Seleção da OSC, desde o recebimento das propostas até a celebração da parceria. As cores destacam fases cruciais do processo.
 
 ### Comissão de Seleção
 
@@ -92,6 +127,9 @@ Após a seleção da OSC, o próximo passo é a [Celebração da Parceria]({{ si
 - [Chamamento Público]({{ site.baseurl }}/chamamento-publico)
 - [Celebração da Parceria]({{ site.baseurl }}/celebracao-parceria)
 - [Planejamento]({{ site.baseurl }}/planejamento)
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 
 </main>
 
