@@ -87,6 +87,8 @@ Este fluxograma apresenta uma visão geral do processo de parceria entre o poder
   </div>
 </section>
 
+[Guia Prático para OSCs](https://phkawka.github.io/guia-pratico-oscs/){: .btn .btn-secondary }
+
 </main>
 
 {% include footer.html %}
