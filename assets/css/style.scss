@@ -206,3 +206,47 @@ footer {
 #back-to-top:hover {
   background-color: #2980b9;
 }
+
+// Novos estilos para o Guia Prático OSCs
+.nav-link.btn-primary {
+  color: #fff;
+  background-color: #3498db;
+  border-color: #3498db;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  
+  &:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+  }
+}
+
+.guia-pratico-section {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+  margin-top: 2rem;
+  text-align: center;
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-lg {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  
+  &:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+}
