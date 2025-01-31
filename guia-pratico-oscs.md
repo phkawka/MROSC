@@ -8,10 +8,6 @@ permalink: /guia-pratico-oscs/
 
 Bem-vindo ao Guia Prático para Organizações da Sociedade Civil (OSCs). Este guia foi desenvolvido para auxiliar sua organização em todas as etapas do processo de parceria com o poder público, desde a preparação inicial até a prestação de contas final.
 
-## Como usar este guia
-
-Siga as etapas abaixo na ordem apresentada. Cada link levará você a uma página detalhada com instruções, checklists, modelos de documentos e dicas úteis.
-
 ## Etapas do Processo
 
 1. [Preparação Inicial]({{ site.baseurl }}/guia-pratico/preparacao-inicial)
