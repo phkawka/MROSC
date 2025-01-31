@@ -79,6 +79,14 @@ Este fluxograma apresenta uma visão geral do processo de parceria entre o poder
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
 
+<section class="guia-pratico-section">
+  <div class="container">
+    <h2>Guia Prático para OSCs</h2>
+    <p>Navegue pelo processo completo de parceria com o poder público, desde a preparação inicial até a prestação de contas.</p>
+    <a href="{{ site.baseurl }}/guia-pratico-oscs" class="btn btn-lg btn-primary">Acessar o Guia Prático</a>
+  </div>
+</section>
+
 </main>
 
 {% include footer.html %}
